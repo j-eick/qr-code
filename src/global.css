@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "Outfit";
+  src: url("../fonts/Outfit-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Outfit_ExtraLight";
+  src: url("../fonts/static/Outfit-ExtraLight.ttf");
+}
+@font-face {
+  font-family: "Outfit_Light";
+  src: url("../fonts/static/Outfit-Light.ttf");
+}
+@font-face {
+  font-family: "Outfit_Medium";
+  src: url("../fonts/static/Outfit-Medium.ttf");
+}
+@font-face {
+  font-family: "Outfit_Bold";
+  src: url("../fonts/static/Outfit-Bold.ttf");
+}
+@font-face {
+  font-family: "Outfit_ExtraBold";
+  src: url("../fonts/static/Outfit-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Whisperer";
+  src: url("../fonts/Whisper-Regular.ttf");
+}
+
+:root {
+  /****** C O L O R S ******/
+  --white: hsl(0, 0%, 100%);
+  --light_gray: hsl(212, 45%, 89%);
+  --grayish_blue: hsl(220, 15%, 55%);
+  --dark_blue: hsl(218, 44%, 22%);
+
+  /****** F O N T S ******/
+  --font-outfit: "Outfit";
+  --font-outfit_extralight: "Outfit_ExtraLight";
+  --font-outfit_light: "Outfit_light";
+  --font-outfit_bold: "Outfit_Bold";
+  --font-Outfit_extraBold: "Outfit_ExtraBold";
+  --font-whisperer: "Whisperer";
+
+  /****** F O N T - S T Y L E S ******/
+  --fontSize_standard_15: 15px;
+  --fontSize_cardTitle_22: 22px;
+  --fontSize_xl_25: 25px;
+  --fontWeight-400: 400;
+  --fontWeight-700: 700;
+}
+
+body {
+  min-width: 375px;
+  min-height: 100dvh;
+
+  font-size: var(--fontSize_standard_15);
+  font-family: var(--font-outfit_extralight);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
