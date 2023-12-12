@@ -1,0 +1,42 @@
+.card {
+  height: 500px;
+  width: 320px;
+
+  padding: 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 15px;
+
+  background-color: #fffffe;
+}
+
+.img_qr {
+  width: 100%;
+
+  border-radius: 8px;
+}
+
+.h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0 15px;
+
+  line-height: 1.2;
+  text-align: center;
+
+  font-size: var(--fontSize_cardTitle_22);
+  font-weight: var(--fontWeight-400);
+  font-family: var(--font-outfit_bold);
+}
+
+.p {
+  padding: 0 20px;
+
+  font-size: var(fontSize_standard_15);
+  font-family: var(--font-outfit_extralight);
+
+  text-align: center;
+}
