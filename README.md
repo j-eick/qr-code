@@ -1,6 +1,6 @@
-A simple qr code
+## A simple qr code
 
-TechStack:
+**TechStack:**
 
 - Vite, React, TS
 - SASS, CSS-Modules
